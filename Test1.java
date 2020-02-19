@@ -31,10 +31,12 @@ public class Test1 {
                int n = num;
                 if(num > count) {
                     n = num % count; 
+                    //整除的话=0 不计算 直接跟第一次调整一样 一个周期4 整除说明是4的倍数
                     if(n != 0) {
                         getResult(n-1,a,b,c,d,max);
                     }
-                }else {               
+                }else {  
+                    //余数 进入计算 计算次数（余数 - 1）
                     getResult(n-1,a,b,c,d,max);
                 }
             }
