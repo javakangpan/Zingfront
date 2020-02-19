@@ -144,8 +144,8 @@ public class Test1 {
 
 
     public static void main(String[] args) {
-        //
-        getCircle(2);
+        //10年 120个月
+        getCircle(120);
         System.out.println("调整优化后 A:" + A + "   B:" + B + "   C:" + C + "   D:" + D ) ;
 
     }
