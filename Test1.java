@@ -34,8 +34,9 @@ public class Test1 {
                     if(n != 0) {
                         getResult(n-1,a,b,c,d,max);
                     }
+                }else {               
+                    getResult(n-1,a,b,c,d,max);
                 }
-                
             }
         }
     }
@@ -143,8 +144,8 @@ public class Test1 {
 
 
     public static void main(String[] args) {
-
-        getCircle(120);
+        //
+        getCircle(2);
         System.out.println("调整优化后 A:" + A + "   B:" + B + "   C:" + C + "   D:" + D ) ;
 
     }
